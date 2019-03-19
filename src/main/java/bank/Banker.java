@@ -1,3 +1,5 @@
+package bank;
+
 public interface Banker {
 
     double withdraw(double amount) throws InsufficientFundException;

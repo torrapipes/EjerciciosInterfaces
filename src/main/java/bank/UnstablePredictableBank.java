@@ -1,3 +1,7 @@
+package bank;
+
+import bank.Banker;
+
 public class UnstablePredictableBank implements Banker {
 
     public double withdraw(double amount) throws InsufficientFundException {

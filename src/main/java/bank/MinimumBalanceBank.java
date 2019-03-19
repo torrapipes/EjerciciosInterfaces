@@ -1,3 +1,5 @@
+package bank;
+
 public class MinimumBalanceBank implements Banker {
 
     public double withdraw(double amount) throws InsufficientFundException {
